@@ -1,0 +1,14 @@
+//
+//  ZQPrefixHeader.pch
+//  微博
+//
+//  Created by lx on 16/5/26.
+//  Copyright © 2016年 LiZhiqiang. All rights reserved.
+//
+
+#ifndef ZQPrefixHeader_pch
+#define ZQPrefixHeader_pch
+
+#import "UIViewExt.h"
+
+#endif /* ZQPrefixHeader_pch */

@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9303AE11CF6D49E007C8297 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E9303AE01CF6D49E007C8297 /* UIViewExt.m */; };
+		E96180591CF67ACE009517CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E96180581CF67ACE009517CA /* main.m */; };
+		E961805C1CF67ACE009517CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E961805B1CF67ACE009517CA /* AppDelegate.m */; };
+		E96180641CF67ACE009517CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96180631CF67ACE009517CA /* Assets.xcassets */; };
+		E96180671CF67ACE009517CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96180651CF67ACE009517CA /* LaunchScreen.storyboard */; };
+		E96180721CF67ACE009517CA /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E96180711CF67ACE009517CA /* __Tests.m */; };
+		E961807D1CF67ACE009517CA /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E961807C1CF67ACE009517CA /* __UITests.m */; };
+		E961809E1CF67DE0009517CA /* ZQBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96180991CF67DE0009517CA /* ZQBaseNavigationController.m */; };
+		E961809F1CF67DE0009517CA /* ZQBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E961809B1CF67DE0009517CA /* ZQBaseTabBarController.m */; };
+		E96180A01CF67DE0009517CA /* ZQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E961809D1CF67DE0009517CA /* ZQBaseViewController.m */; };
+		E9DB2E201CF68BCA0055D932 /* ZQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB2E1F1CF68BCA0055D932 /* ZQHomeViewController.m */; };
+		E9DB2E231CF68BF30055D932 /* ZQMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB2E221CF68BF30055D932 /* ZQMessageViewController.m */; };
+		E9DB2E261CF68BFF0055D932 /* ZQDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB2E251CF68BFF0055D932 /* ZQDiscoverViewController.m */; };
+		E9DB2E291CF68C080055D932 /* ZQMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB2E281CF68C080055D932 /* ZQMeViewController.m */; };
+		E9DB2E301CF691030055D932 /* ZQAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB2E2F1CF691030055D932 /* ZQAddViewController.m */; };
+		E9DB2E331CF6AB100055D932 /* ZQHomeGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB2E321CF6AB100055D932 /* ZQHomeGroupView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E961806E1CF67ACE009517CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E961804C1CF67ACE009517CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96180531CF67ACE009517CA;
+			remoteInfo = "微博";
+		};
+		E96180791CF67ACE009517CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E961804C1CF67ACE009517CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96180531CF67ACE009517CA;
+			remoteInfo = "微博";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9303ADF1CF6D49E007C8297 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		E9303AE01CF6D49E007C8297 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		E9303AE31CF6D557007C8297 /* ZQPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQPrefixHeader.pch; sourceTree = "<group>"; };
+		E96180541CF67ACE009517CA /* 微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96180581CF67ACE009517CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E961805A1CF67ACE009517CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E961805B1CF67ACE009517CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E96180631CF67ACE009517CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E96180661CF67ACE009517CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E96180681CF67ACE009517CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E961806D1CF67ACE009517CA /* 微博Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微博Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96180711CF67ACE009517CA /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		E96180731CF67ACE009517CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96180781CF67ACE009517CA /* 微博UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微博UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E961807C1CF67ACE009517CA /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
+		E961807E1CF67ACE009517CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96180981CF67DE0009517CA /* ZQBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQBaseNavigationController.h; sourceTree = "<group>"; };
+		E96180991CF67DE0009517CA /* ZQBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQBaseNavigationController.m; sourceTree = "<group>"; };
+		E961809A1CF67DE0009517CA /* ZQBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQBaseTabBarController.h; sourceTree = "<group>"; };
+		E961809B1CF67DE0009517CA /* ZQBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQBaseTabBarController.m; sourceTree = "<group>"; };
+		E961809C1CF67DE0009517CA /* ZQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQBaseViewController.h; sourceTree = "<group>"; };
+		E961809D1CF67DE0009517CA /* ZQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQBaseViewController.m; sourceTree = "<group>"; };
+		E9DB2E1E1CF68BCA0055D932 /* ZQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQHomeViewController.h; sourceTree = "<group>"; };
+		E9DB2E1F1CF68BCA0055D932 /* ZQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQHomeViewController.m; sourceTree = "<group>"; };
+		E9DB2E211CF68BF30055D932 /* ZQMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQMessageViewController.h; sourceTree = "<group>"; };
+		E9DB2E221CF68BF30055D932 /* ZQMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQMessageViewController.m; sourceTree = "<group>"; };
+		E9DB2E241CF68BFF0055D932 /* ZQDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQDiscoverViewController.h; sourceTree = "<group>"; };
+		E9DB2E251CF68BFF0055D932 /* ZQDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQDiscoverViewController.m; sourceTree = "<group>"; };
+		E9DB2E271CF68C080055D932 /* ZQMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQMeViewController.h; sourceTree = "<group>"; };
+		E9DB2E281CF68C080055D932 /* ZQMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQMeViewController.m; sourceTree = "<group>"; };
+		E9DB2E2E1CF691030055D932 /* ZQAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQAddViewController.h; sourceTree = "<group>"; };
+		E9DB2E2F1CF691030055D932 /* ZQAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQAddViewController.m; sourceTree = "<group>"; };
+		E9DB2E311CF6AB100055D932 /* ZQHomeGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQHomeGroupView.h; sourceTree = "<group>"; };
+		E9DB2E321CF6AB100055D932 /* ZQHomeGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQHomeGroupView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E96180511CF67ACE009517CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E961806A1CF67ACE009517CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96180751CF67ACE009517CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9303ADE1CF6D49E007C8297 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E9303ADF1CF6D49E007C8297 /* UIViewExt.h */,
+				E9303AE01CF6D49E007C8297 /* UIViewExt.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E9303AE21CF6D547007C8297 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E9303AE31CF6D557007C8297 /* ZQPrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E961804B1CF67ACE009517CA = {
+			isa = PBXGroup;
+			children = (
+				E96180561CF67ACE009517CA /* 微博 */,
+				E96180701CF67ACE009517CA /* 微博Tests */,
+				E961807B1CF67ACE009517CA /* 微博UITests */,
+				E96180551CF67ACE009517CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E96180551CF67ACE009517CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E96180541CF67ACE009517CA /* 微博.app */,
+				E961806D1CF67ACE009517CA /* 微博Tests.xctest */,
+				E96180781CF67ACE009517CA /* 微博UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E96180561CF67ACE009517CA /* 微博 */ = {
+			isa = PBXGroup;
+			children = (
+				E961805A1CF67ACE009517CA /* AppDelegate.h */,
+				E961805B1CF67ACE009517CA /* AppDelegate.m */,
+				E9303AE21CF6D547007C8297 /* Other */,
+				E9303ADE1CF6D49E007C8297 /* Category */,
+				E96180961CF67DE0009517CA /* Base */,
+				E9DB2E121CF68B980055D932 /* Home(首页) */,
+				E9DB2E1A1CF68B980055D932 /* Message(消息) */,
+				E9DB2E2A1CF690E10055D932 /* Add(+) */,
+				E9DB2E0E1CF68B980055D932 /* Discover(发现) */,
+				E9DB2E161CF68B980055D932 /* Me(我) */,
+				E96180631CF67ACE009517CA /* Assets.xcassets */,
+				E96180651CF67ACE009517CA /* LaunchScreen.storyboard */,
+				E96180681CF67ACE009517CA /* Info.plist */,
+				E96180571CF67ACE009517CA /* Supporting Files */,
+			);
+			path = "微博";
+			sourceTree = "<group>";
+		};
+		E96180571CF67ACE009517CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E96180581CF67ACE009517CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E96180701CF67ACE009517CA /* 微博Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E96180711CF67ACE009517CA /* __Tests.m */,
+				E96180731CF67ACE009517CA /* Info.plist */,
+			);
+			path = "微博Tests";
+			sourceTree = "<group>";
+		};
+		E961807B1CF67ACE009517CA /* 微博UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E961807C1CF67ACE009517CA /* __UITests.m */,
+				E961807E1CF67ACE009517CA /* Info.plist */,
+			);
+			path = "微博UITests";
+			sourceTree = "<group>";
+		};
+		E96180961CF67DE0009517CA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E96180971CF67DE0009517CA /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E96180971CF67DE0009517CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E96180981CF67DE0009517CA /* ZQBaseNavigationController.h */,
+				E96180991CF67DE0009517CA /* ZQBaseNavigationController.m */,
+				E961809A1CF67DE0009517CA /* ZQBaseTabBarController.h */,
+				E961809B1CF67DE0009517CA /* ZQBaseTabBarController.m */,
+				E961809C1CF67DE0009517CA /* ZQBaseViewController.h */,
+				E961809D1CF67DE0009517CA /* ZQBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9DB2E0E1CF68B980055D932 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB2E0F1CF68B980055D932 /* Controller */,
+				E9DB2E101CF68B980055D932 /* Model */,
+				E9DB2E111CF68B980055D932 /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		E9DB2E0F1CF68B980055D932 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB2E241CF68BFF0055D932 /* ZQDiscoverViewController.h */,
+				E9DB2E251CF68BFF0055D932 /* ZQDiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9DB2E101CF68B980055D932 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9DB2E111CF68B980055D932 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9DB2E121CF68B980055D932 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB2E131CF68B980055D932 /* Controller */,
+				E9DB2E141CF68B980055D932 /* Model */,
+				E9DB2E151CF68B980055D932 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		E9DB2E131CF68B980055D932 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB2E1E1CF68BCA0055D932 /* ZQHomeViewController.h */,
+				E9DB2E1F1CF68BCA0055D932 /* ZQHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9DB2E141CF68B980055D932 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9DB2E151CF68B980055D932 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB2E311CF6AB100055D932 /* ZQHomeGroupView.h */,
+				E9DB2E321CF6AB100055D932 /* ZQHomeGroupView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9DB2E161CF68B980055D932 /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB2E171CF68B980055D932 /* Controller */,
+				E9DB2E181CF68B980055D932 /* Model */,
+				E9DB2E191CF68B980055D932 /* View */,
+			);
+			path = "Me(我)";
+			sourceTree = "<group>";
+		};
+		E9DB2E171CF68B980055D932 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB2E271CF68C080055D932 /* ZQMeViewController.h */,
+				E9DB2E281CF68C080055D932 /* ZQMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9DB2E181CF68B980055D932 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9DB2E191CF68B980055D932 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9DB2E1A1CF68B980055D932 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB2E1B1CF68B980055D932 /* Controller */,
+				E9DB2E1C1CF68B980055D932 /* Model */,
+				E9DB2E1D1CF68B980055D932 /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		E9DB2E1B1CF68B980055D932 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB2E211CF68BF30055D932 /* ZQMessageViewController.h */,
+				E9DB2E221CF68BF30055D932 /* ZQMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9DB2E1C1CF68B980055D932 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9DB2E1D1CF68B980055D932 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9DB2E2A1CF690E10055D932 /* Add(+) */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB2E2B1CF690E10055D932 /* Controller */,
+				E9DB2E2C1CF690E10055D932 /* Mode */,
+				E9DB2E2D1CF690E10055D932 /* View */,
+			);
+			name = "Add(+)";
+			path = "Message(消息)/Add(+)";
+			sourceTree = "<group>";
+		};
+		E9DB2E2B1CF690E10055D932 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB2E2E1CF691030055D932 /* ZQAddViewController.h */,
+				E9DB2E2F1CF691030055D932 /* ZQAddViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9DB2E2C1CF690E10055D932 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		E9DB2E2D1CF690E10055D932 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E96180531CF67ACE009517CA /* 微博 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96180811CF67ACE009517CA /* Build configuration list for PBXNativeTarget "微博" */;
+			buildPhases = (
+				E96180501CF67ACE009517CA /* Sources */,
+				E96180511CF67ACE009517CA /* Frameworks */,
+				E96180521CF67ACE009517CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微博";
+			productName = "微博";
+			productReference = E96180541CF67ACE009517CA /* 微博.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E961806C1CF67ACE009517CA /* 微博Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96180841CF67ACE009517CA /* Build configuration list for PBXNativeTarget "微博Tests" */;
+			buildPhases = (
+				E96180691CF67ACE009517CA /* Sources */,
+				E961806A1CF67ACE009517CA /* Frameworks */,
+				E961806B1CF67ACE009517CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E961806F1CF67ACE009517CA /* PBXTargetDependency */,
+			);
+			name = "微博Tests";
+			productName = "微博Tests";
+			productReference = E961806D1CF67ACE009517CA /* 微博Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E96180771CF67ACE009517CA /* 微博UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96180871CF67ACE009517CA /* Build configuration list for PBXNativeTarget "微博UITests" */;
+			buildPhases = (
+				E96180741CF67ACE009517CA /* Sources */,
+				E96180751CF67ACE009517CA /* Frameworks */,
+				E96180761CF67ACE009517CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E961807A1CF67ACE009517CA /* PBXTargetDependency */,
+			);
+			name = "微博UITests";
+			productName = "微博UITests";
+			productReference = E96180781CF67ACE009517CA /* 微博UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E961804C1CF67ACE009517CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZQ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiZhiqiang;
+				TargetAttributes = {
+					E96180531CF67ACE009517CA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					E961806C1CF67ACE009517CA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E96180531CF67ACE009517CA;
+					};
+					E96180771CF67ACE009517CA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E96180531CF67ACE009517CA;
+					};
+				};
+			};
+			buildConfigurationList = E961804F1CF67ACE009517CA /* Build configuration list for PBXProject "微博" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E961804B1CF67ACE009517CA;
+			productRefGroup = E96180551CF67ACE009517CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E96180531CF67ACE009517CA /* 微博 */,
+				E961806C1CF67ACE009517CA /* 微博Tests */,
+				E96180771CF67ACE009517CA /* 微博UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E96180521CF67ACE009517CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96180671CF67ACE009517CA /* LaunchScreen.storyboard in Resources */,
+				E96180641CF67ACE009517CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E961806B1CF67ACE009517CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96180761CF67ACE009517CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E96180501CF67ACE009517CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DB2E231CF68BF30055D932 /* ZQMessageViewController.m in Sources */,
+				E961805C1CF67ACE009517CA /* AppDelegate.m in Sources */,
+				E961809E1CF67DE0009517CA /* ZQBaseNavigationController.m in Sources */,
+				E9DB2E201CF68BCA0055D932 /* ZQHomeViewController.m in Sources */,
+				E9303AE11CF6D49E007C8297 /* UIViewExt.m in Sources */,
+				E96180591CF67ACE009517CA /* main.m in Sources */,
+				E9DB2E291CF68C080055D932 /* ZQMeViewController.m in Sources */,
+				E9DB2E331CF6AB100055D932 /* ZQHomeGroupView.m in Sources */,
+				E96180A01CF67DE0009517CA /* ZQBaseViewController.m in Sources */,
+				E9DB2E261CF68BFF0055D932 /* ZQDiscoverViewController.m in Sources */,
+				E961809F1CF67DE0009517CA /* ZQBaseTabBarController.m in Sources */,
+				E9DB2E301CF691030055D932 /* ZQAddViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96180691CF67ACE009517CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96180721CF67ACE009517CA /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96180741CF67ACE009517CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E961807D1CF67ACE009517CA /* __UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E961806F1CF67ACE009517CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96180531CF67ACE009517CA /* 微博 */;
+			targetProxy = E961806E1CF67ACE009517CA /* PBXContainerItemProxy */;
+		};
+		E961807A1CF67ACE009517CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96180531CF67ACE009517CA /* 微博 */;
+			targetProxy = E96180791CF67ACE009517CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E96180651CF67ACE009517CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E96180661CF67ACE009517CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E961807F1CF67ACE009517CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E96180801CF67ACE009517CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E96180821CF67ACE009517CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/微博/Other/ZQPrefixHeader.pch";
+				INFOPLIST_FILE = "微博/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiZhiqiang.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E96180831CF67ACE009517CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/微博/Other/ZQPrefixHeader.pch";
+				INFOPLIST_FILE = "微博/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiZhiqiang.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E96180851CF67ACE009517CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "微博Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiZhiqiang.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微博.app/微博";
+			};
+			name = Debug;
+		};
+		E96180861CF67ACE009517CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "微博Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiZhiqiang.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微博.app/微博";
+			};
+			name = Release;
+		};
+		E96180881CF67ACE009517CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "微博UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiZhiqiang.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "微博";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E96180891CF67ACE009517CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "微博UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LiZhiqiang.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "微博";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E961804F1CF67ACE009517CA /* Build configuration list for PBXProject "微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E961807F1CF67ACE009517CA /* Debug */,
+				E96180801CF67ACE009517CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96180811CF67ACE009517CA /* Build configuration list for PBXNativeTarget "微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96180821CF67ACE009517CA /* Debug */,
+				E96180831CF67ACE009517CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96180841CF67ACE009517CA /* Build configuration list for PBXNativeTarget "微博Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96180851CF67ACE009517CA /* Debug */,
+				E96180861CF67ACE009517CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96180871CF67ACE009517CA /* Build configuration list for PBXNativeTarget "微博UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96180881CF67ACE009517CA /* Debug */,
+				E96180891CF67ACE009517CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E961804C1CF67ACE009517CA /* Project object */;
+}
